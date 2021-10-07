@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "@vueuse/core": "^6.5.3"
+  },
+  "name": "azure-serverless-conf-2021",
+  "devDependencies": {
+    "playwright-chromium": "^1.15.0"
+  }
+}
